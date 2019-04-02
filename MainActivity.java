@@ -39,7 +39,7 @@ public class MainActivity extends Activity {
 //                }
 //            }
 //        };
-//        thread.start();
+//        thread.sstart();
 //        thread.join();
 //        Log.d("count == " + SyncTest.count);
     }
