@@ -54,5 +54,6 @@ public class MainActivity extends Activity {
         super.onActivityResult(requestCode, resultCode, data);
         SharedPreferences sp = getSharedPreferences("abc", MODE_PRIVATE);
         Log.d("sp value == " + sp.getInt("aaa", -1));
+		Log.d("sp value == " + sp.getInt("aaa", -1));
     }
 }
