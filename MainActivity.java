@@ -27,6 +27,7 @@ public class MainActivity extends Activity {
         SharedPreferences sp = getSharedPreferences("abc", MODE_PRIVATE);
         SharedPreferences.Editor editor = sp.edit();
         editor.putInt("qqq", 1);
+		editor.putInt("fff", 1);
         editor.commit();
         startActivityForResult(new Intent(this, SupportActivityPrivate.class), 0x111);
 //        Thread thread = new Thread() {
