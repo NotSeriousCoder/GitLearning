@@ -26,7 +26,7 @@ public class MainActivity extends Activity {
     public void goPriProcess(View view) throws InterruptedException {
         SharedPreferences sp = getSharedPreferences("abc", MODE_PRIVATE);
         SharedPreferences.Editor editor = sp.edit();
-        editor.putInt("aaa", 1);
+        editor.putInt("ccc", 1);
         editor.commit();
         startActivityForResult(new Intent(this, SupportActivityPrivate.class), 0x111);
 //        Thread thread = new Thread() {
